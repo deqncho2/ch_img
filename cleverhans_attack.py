@@ -2,7 +2,7 @@ from __future__ import print_function
 import tensorflow as tf 
 import pickle
 import numpy as np
-
+print('blah')
 import logging
 
 import matplotlib
@@ -11,16 +11,18 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from cleverhans.attacks import SaliencyMapMethod,FastGradientMethod,CarliniWagnerL2,DeepFool,BasicIterativeMethod,MadryEtAl
 from cleverhans.utils import other_classes, set_log_level
+print('blah2')
 from cleverhans.utils import pair_visual, grid_visual, AccuracyReport
 from cleverhans.utils_mnist import data_mnist
 from cleverhans.utils_tf import model_train, model_eval, model_argmax
 #from cleverhans.utils_keras import KerasModelWrapper, cnn_model
 from cleverhans.model import *
-
+print('bla3')
 from nets.vgg_f import vggf
 from nets.caffenet import caffenet
 from nets.vgg_16 import vgg16
 from nets.vgg_19 import vgg19
+print('blah4')
 from nets.googlenet import googlenet
 from nets.resnet_50 import resnet50
 from nets.resnet_152 import resnet152
@@ -30,7 +32,7 @@ import tensorflow as tf
 import numpy as np
 import argparse
 import time
-
+print('blah5')
 
 #import os
 #os.environ["CUDA_DEVICE_ORDER"] = ""
