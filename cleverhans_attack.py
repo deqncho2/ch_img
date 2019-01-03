@@ -9,7 +9,9 @@ import matplotlib
 #matplotlib.use('Agg')           # noqa: E402
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
+print('blaah')
 from cleverhans.attacks import SaliencyMapMethod,FastGradientMethod,CarliniWagnerL2,DeepFool,BasicIterativeMethod,MadryEtAl
+print('blaaah')
 from cleverhans.utils import other_classes, set_log_level
 print('blah2')
 from cleverhans.utils import pair_visual, grid_visual, AccuracyReport
