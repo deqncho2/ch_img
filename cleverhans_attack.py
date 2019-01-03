@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 print('blah')
 import logging
-
+print('bdbd')
 import matplotlib
 #matplotlib.use('Agg')           # noqa: E402
 import matplotlib.pyplot as plt
