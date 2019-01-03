@@ -110,6 +110,7 @@ def attack_batch(model, in_im, net_name, attack_name, im_list, gt_labels, sample
         
 	print('ccc')
         sess.run(tf.global_variables_initializer())
+	print('fdfdfd')
         img_loader = loader_func(net_name, sess, isotropic, size)
         batch_im = np.zeros((batch_size, size, size, 3))
         print('ddd')
