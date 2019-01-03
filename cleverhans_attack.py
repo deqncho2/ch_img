@@ -140,6 +140,7 @@ def attack_batch(model, in_im, net_name, attack_name, im_list, gt_labels, sample
     logging.info("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++") 
 
 def main():
+    print('dfdfd')
     parser = argparse.ArgumentParser()
     parser.add_argument('--network', default='googlenet', help='The network eg. googlenet')
     parser.add_argument('--attack', default='fgsm', help='The attack method eg. fgsm')
